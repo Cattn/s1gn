@@ -1,5 +1,5 @@
 let state = {
-    endpoint: "://sg.nailgun.click",
+    endpoint: "://erm.kolf.pro",
     number: 0,
     inside: {},
     nameCache: {},
