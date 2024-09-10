@@ -40,7 +40,7 @@
                 ws.send(JSON.stringify(res));
                 out(JSON.stringify(res));
             }
-            const ws = new WebSocket("ws://"+location.host+"/sock");
+            const ws = new WebSocket("wss://"+location.host+"/sock");
             ws.onerror = function(e){
                 out("wserror: " + e);
             }
